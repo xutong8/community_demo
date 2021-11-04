@@ -1,0 +1,15 @@
+.icon {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon .num {
+  margin-left: 4px;
+  color: gray;
+}

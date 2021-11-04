@@ -1,0 +1,57 @@
+.card {
+  width: 100%;
+  padding: 8px;
+  background-color: #fff;
+  margin-bottom: 8px;
+}
+
+.card .header {
+  display: flex;
+  flex-direction: row;
+  height: 47px;
+}
+
+.card .header .desc {
+  margin-left: 4px;
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .header .desc .title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.card .header .desc .date {
+  color: gray;
+  font-size: 12px;
+}
+
+.card .content {
+  margin-top: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  display: block;
+}
+
+.card .content .anchor {
+  color: #d25761;
+}
+
+.card .content .text {
+  color: black;
+  margin-left: 8px;
+}
+
+.card .img {
+  margin-top: 8px;
+}
+
+.card .icons {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
